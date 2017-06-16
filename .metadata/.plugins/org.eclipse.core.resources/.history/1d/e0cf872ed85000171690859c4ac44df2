@@ -1,0 +1,52 @@
+package ExcelData;
+
+import java.io.File;
+import java.io.FileInputStream;
+
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ReadExcel {
+
+	public static void main(String[] args) throws Exception {
+	
+		File src = new File ("C:\\Users\\rohini.burde\\Desktop\\Rohdocs\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(src);
+		
+		XSSFWorkbook wb = new XSSFWorkbook(fis);
+		XSSFSheet sheet1 = wb.getSheetAt(0);
+		
+		int rownum = sheet1.getLastRowNum();
+		int totalColumn = sheet1.getRow(0).getLastCellNum();
+		
+		for (int i = 0; i < rownum; i++) {
+
+			String rows = sheet1.getRow(0).getCell(0).getStringCellValue();
+			
+			System.out.println("Username is"+ rownum);
+			
+		for (int j = 0; j < totalColumn; j++) {
+			
+			XSSFCell cell = rows.getCell(j);
+			System.out.println("Password is"+ totalColumn);
+		}
+		
+		
+		}
+		
+		
+		
+        
+        /*String data2 = sheet1.getRow(0).getCell(1).getStringCellValue();
+        String data3 = sheet1.getRow(1).getCell(0).getStringCellValue();
+        String data4 = sheet1.getRow(1).getCell(1).getStringCellValue();
+        
+        System.out.println(data1+ " " +data2);
+        System.out.println(data3+" "+data4);*/
+        
+        
+	}
+
+}

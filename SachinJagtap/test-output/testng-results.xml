@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="81" started-at="2017-05-22T10:53:11Z" finished-at="2017-05-22T10:53:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="81" started-at="2017-05-22T10:53:11Z" finished-at="2017-05-22T10:53:11Z">
+      <class name="org.demo.sachin.jagtap.NewTest">
+        <test-method status="PASS" signature="anotherclass()[pri:0, instance:org.demo.sachin.jagtap.NewTest@47c62251]" name="anotherclass" duration-ms="9" started-at="2017-05-22T16:23:11Z" finished-at="2017-05-22T16:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anotherclass -->
+      </class> <!-- org.demo.sachin.jagtap.NewTest -->
+      <class name="org.demo.sachin.jagtap.Suite">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.demo.sachin.jagtap.Suite@6f7fd0e6]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2017-05-22T16:23:11Z" finished-at="2017-05-22T16:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:org.demo.sachin.jagtap.Suite@6f7fd0e6]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-05-22T16:23:11Z" finished-at="2017-05-22T16:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.demo.sachin.jagtap.Suite -->
+      <class name="org.demo.sachin.jagtap.MyTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.demo.sachin.jagtap.MyTest@3e6fa38a]" name="beforeTest" is-config="true" duration-ms="2" started-at="2017-05-22T16:23:11Z" finished-at="2017-05-22T16:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.demo.sachin.jagtap.NewTest@47c62251]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-05-22T16:23:11Z" finished-at="2017-05-22T16:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.demo.sachin.jagtap.MyTest@3e6fa38a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-22T16:23:11Z" finished-at="2017-05-22T16:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MyMethod1()[pri:0, instance:org.demo.sachin.jagtap.MyTest@3e6fa38a]" name="MyMethod1" duration-ms="3" started-at="2017-05-22T16:23:11Z" finished-at="2017-05-22T16:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyMethod1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.demo.sachin.jagtap.MyTest@3e6fa38a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-22T16:23:11Z" finished-at="2017-05-22T16:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.demo.sachin.jagtap.MyTest@3e6fa38a]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-05-22T16:23:11Z" finished-at="2017-05-22T16:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MyMethod2()[pri:0, instance:org.demo.sachin.jagtap.MyTest@3e6fa38a]" name="MyMethod2" duration-ms="3" started-at="2017-05-22T16:23:11Z" finished-at="2017-05-22T16:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyMethod2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.demo.sachin.jagtap.MyTest@3e6fa38a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-05-22T16:23:11Z" finished-at="2017-05-22T16:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.demo.sachin.jagtap.MyTest@3e6fa38a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-22T16:23:11Z" finished-at="2017-05-22T16:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MyMethod3()[pri:0, instance:org.demo.sachin.jagtap.MyTest@3e6fa38a]" name="MyMethod3" duration-ms="6" started-at="2017-05-22T16:23:11Z" finished-at="2017-05-22T16:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyMethod3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.demo.sachin.jagtap.MyTest@3e6fa38a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-05-22T16:23:11Z" finished-at="2017-05-22T16:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.demo.sachin.jagtap.NewTest@47c62251]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-05-22T16:23:11Z" finished-at="2017-05-22T16:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.demo.sachin.jagtap.MyTest@3e6fa38a]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-05-22T16:23:11Z" finished-at="2017-05-22T16:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.demo.sachin.jagtap.MyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

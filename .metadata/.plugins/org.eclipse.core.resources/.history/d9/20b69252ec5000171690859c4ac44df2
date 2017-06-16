@@ -1,0 +1,17 @@
+package ExcelData;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+public class Excelconfig {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		XSSFWorkbook wb;
+		XSSFSheet Sheet1;
+		
+		
+		
+		
+	}
+
+}

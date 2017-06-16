@@ -1,0 +1,17 @@
+package org.demo.test;
+
+import org.testng.annotations.Test;
+
+@Test
+public class NewTest1 {
+	public void method1() {
+
+		System.out.println("Create Login");
+	}
+
+@Before
+	public void beforeTest() {
+		System.out.println("open browser");
+	}
+
+}

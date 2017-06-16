@@ -1,0 +1,32 @@
+package ExcelData;
+
+import org.apache.xmlbeans.impl.xb.xsdschema.Public;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeTest;
+
+public class ReadExcelLogin {
+
+	public static void main(String[] args) throws Exception {
+		WebDriver dr ;
+		
+@BeforeTest
+	
+public void openbrowser()
+		{
+			System.setProperty("webdriver.gecko.driver", "C://GeckoDriver//geckodriver.exe");			
+			
+			dr = new FirefoxDriver();
+			
+			dr.manage().window().maximize();
+			
+			dr.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+			
+			
+			
+			
+		}
+
+	}
+
+}

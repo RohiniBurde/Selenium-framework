@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Practice"/>
+<mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+<listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+<listEntry value="com.demo.Alert"/>
+<listEntry value="com.demo.Car"/>
+<listEntry value="com.demo.Alert_Demo"/>
+<listEntry value="com.demo.Response_code"/>
+<listEntry value="com.demo.HtmlUnitDriver"/>
+<listEntry value="com.demo.WindowHandling2"/>
+<listEntry value="com.demo.Firefoxprofile"/>
+<listEntry value="com.demo.Screenshot"/>
+<listEntry value="com.demo.Browsers"/>
+<listEntry value="com.demo.DropdownGetOptions"/>
+<listEntry value="com.demo.Listelements"/>
+<listEntry value="com.demo.Linkscount"/>
+<listEntry value="com.demo.BMW"/>
+<listEntry value="com.demo.DropdownHandling"/>
+<listEntry value="com.demo.Test"/>
+<listEntry value="com.demo.Windowhandling"/>
+<listEntry value="testNG.Annotations"/>
+<listEntry value="com.demo.Upload_file"/>
+<listEntry value="com.demo.ReirectOnEachLink"/>
+<listEntry value="com.demo.Day1"/>
+<listEntry value="com.demo.Xpathmanual"/>
+<listEntry value="com.demo.MultipeObjects"/>
+<listEntry value="com.demo.Table"/>
+<listEntry value="com.demo.ToolTip"/>
+<listEntry value="com.demo.DownloadFile"/>
+<listEntry value="com.demo.Datepicker"/>
+<listEntry value="com.demo.ResponseCodeOfAllLinks"/>
+<listEntry value="com.demo.Actionclass"/>
+<listEntry value="com.demo.Links2"/>
+</listAttribute>
+<listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+<listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+<stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+<intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

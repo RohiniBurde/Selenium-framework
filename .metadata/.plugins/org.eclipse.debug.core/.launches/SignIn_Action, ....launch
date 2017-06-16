@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="MyNewProject"/>
+<mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
+<mapEntry key="appModules.SignIn_Action" value=""/>
+<mapEntry key="automationFramework.Apache_POI_TC" value=""/>
+<mapEntry key="automationFramework.Global_Var_TC" value=""/>
+<mapEntry key="automationFramework.Log4j_Logging_TC" value=""/>
+<mapEntry key="automationFramework.Module_TC" value=""/>
+<mapEntry key="automationFramework.PageObjectModel" value=""/>
+<mapEntry key="automationFramework.Param_TC" value=""/>
+<mapEntry key="com.utils.Constant" value=""/>
+<mapEntry key="com.utils.ExcelUtils" value=""/>
+<mapEntry key="com.utils.Log" value=""/>
+<mapEntry key="pageObjects.Home_Page" value=""/>
+<mapEntry key="pageObjects.LogIn_Page" value=""/>
+</mapAttribute>
+<listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+<listEntry value="automationFramework.Log4j_Logging_TC"/>
+<listEntry value="pageObjects.LogIn_Page"/>
+<listEntry value="appModules.SignIn_Action"/>
+<listEntry value="automationFramework.Global_Var_TC"/>
+<listEntry value="com.utils.Log"/>
+<listEntry value="pageObjects.Home_Page"/>
+<listEntry value="com.utils.ExcelUtils"/>
+<listEntry value="automationFramework.Param_TC"/>
+<listEntry value="automationFramework.Module_TC"/>
+<listEntry value="automationFramework.PageObjectModel"/>
+<listEntry value="automationFramework.Apache_POI_TC"/>
+<listEntry value="com.utils.Constant"/>
+</listAttribute>
+<booleanAttribute key="org.testng.eclipse.DEBUG" value="false"/>
+<listAttribute key="org.testng.eclipse.GROUP_LIST"/>
+<listAttribute key="org.testng.eclipse.GROUP_LIST_CLASS"/>
+<stringAttribute key="org.testng.eclipse.LOG_LEVEL" value="2"/>
+<listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+<listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+<stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+<stringAttribute key="org.testng.eclipse.PROTOCOL" value="json"/>
+<intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+<booleanAttribute key="org.testng.eclipse.VERBOSE" value="false"/>
+</launchConfiguration>

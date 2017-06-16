@@ -1,0 +1,37 @@
+package ExcelData;
+
+import java.io.FileInputStream;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class ReadExcelLogin {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.gecko.driver","C:\\New folder\\geckodriver.exe");
+		WebDriver dr = new FirefoxDriver();
+		
+		FileInputStream fi = new FileInputStream("C:\\Users\\rohini.burde\\Desktop\\Rohdocs\\TestData.xlsx");
+		XSSFWorkbook wb = new XSSFWorkbook(fi);
+		XSSFSheet sheet1 = wb.getSheetAt(0);
+		int rownum = sheet1.getLastRowNum();
+		int totalColumn = sheet1.getRow(0).getLastCellNum();
+		dr.get("http://toolsqa.com/automation-practice-form/");
+		
+		for (int i = 0; i < rownum; i++) {
+
+			for (int j = 0; j < totalColumn; j++) {
+
+				String col = sheet1.getRow(i).getCell(j).getStringCellValue();
+				System.out.println(col);
+			}
+
+		}
+
+	}
+
+}

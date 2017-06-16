@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="PageObjectWithPageFactoryFramework-master"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+<mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+<listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+<listEntry value="com.test.automation.uiAutomation.homepage.TC004_VerifyLoginWithJavaScriptExecutator"/>
+<listEntry value="com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart"/>
+<listEntry value="com.test.automation.uiAutomation.addToCart.TC002_VerifyFacebookLink"/>
+<listEntry value="com.test.automation.uiAutomation.customListner.WebEventListener"/>
+<listEntry value="com.test.automation.uiAutomation.addToCart.VerifyAddProductToCartAndDeleteFromCart"/>
+<listEntry value="com.test.automation.uiAutomation.customListner.Listener"/>
+<listEntry value="com.test.automation.uiAutomation.uiActions.HomePage"/>
+<listEntry value="com.test.automation.uiAutomation.uiActions.ShoppingCartPage_AutomationPractices"/>
+<listEntry value="com.test.automation.uiAutomation.customListner.Retry"/>
+<listEntry value="com.test.automation.uiAutomation.uiActions.AddToCartPage"/>
+<listEntry value="com.test.automation.uiAutomation.uiActions.HomePage_AutomationPractices"/>
+<listEntry value="com.test.automation.uiAutomation.excelReader.Excel_Reader"/>
+<listEntry value="com.test.automation.uiAutomation.uiActions.ProductDetails_AutomationPractices"/>
+<listEntry value="com.test.automation.uiAutomation.uiActions.ProductDetailsPage"/>
+<listEntry value="com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords"/>
+<listEntry value="com.test.automation.uiAutomation.customListner.RetryListener"/>
+<listEntry value="com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentailsToAutoMationPractices"/>
+<listEntry value="com.test.automation.uiAutomation.testBase.TestBase"/>
+<listEntry value="com.test.automation.uiAutomation.addToCart.TC001_VerifyAddToBasket_AutomationPractices"/>
+<listEntry value="com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration"/>
+</listAttribute>
+<listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+<listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+<stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+<intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

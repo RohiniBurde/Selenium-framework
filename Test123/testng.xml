@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation tet">
+	<test name="smoke test">
+		<groups>
+			<run>
+				<include name="priority1" />
+				<include name="priority2" />
+			</run>
+
+		</groups>
+		<packages>
+			<package name="demo123" />
+		</packages>
+		<parameter name="adminUserid" value="abcd" />
+		<parameter name="adminPwd" value="wxyz" />
+		<classes>
+
+			<class name="demo123.NewTest" />
+
+		</classes>
+	</test>
+</suite> 

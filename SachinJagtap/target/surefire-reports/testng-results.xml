@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="26" started-at="2017-05-22T11:07:37Z" finished-at="2017-05-22T11:07:37Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="26" started-at="2017-05-22T11:07:37Z" finished-at="2017-05-22T11:07:37Z">
+      <class name="org.demo.sachin.jagtap.NewTest">
+        <test-method status="PASS" signature="anotherclass()[pri:0, instance:org.demo.sachin.jagtap.NewTest@68837a77]" name="anotherclass" duration-ms="1" started-at="2017-05-22T16:37:37Z" finished-at="2017-05-22T16:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anotherclass -->
+      </class> <!-- org.demo.sachin.jagtap.NewTest -->
+      <class name="org.demo.sachin.jagtap.MyTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.demo.sachin.jagtap.MyTest@2d554825]" name="beforeTest" is-config="true" duration-ms="9" started-at="2017-05-22T16:37:37Z" finished-at="2017-05-22T16:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.demo.sachin.jagtap.NewTest@68837a77]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-05-22T16:37:37Z" finished-at="2017-05-22T16:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.demo.sachin.jagtap.MyTest@2d554825]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-22T16:37:37Z" finished-at="2017-05-22T16:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MyMethod1()[pri:0, instance:org.demo.sachin.jagtap.MyTest@2d554825]" name="MyMethod1" duration-ms="1" started-at="2017-05-22T16:37:37Z" finished-at="2017-05-22T16:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyMethod1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.demo.sachin.jagtap.MyTest@2d554825]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-22T16:37:37Z" finished-at="2017-05-22T16:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.demo.sachin.jagtap.MyTest@2d554825]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-22T16:37:37Z" finished-at="2017-05-22T16:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.demo.sachin.jagtap.MyTest@2d554825]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-22T16:37:37Z" finished-at="2017-05-22T16:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="MyMethod2()[pri:0, instance:org.demo.sachin.jagtap.MyTest@2d554825]" name="MyMethod2" duration-ms="0" started-at="2017-05-22T16:37:37Z" finished-at="2017-05-22T16:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyMethod2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.demo.sachin.jagtap.MyTest@2d554825]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-22T16:37:37Z" finished-at="2017-05-22T16:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MyMethod3()[pri:0, instance:org.demo.sachin.jagtap.MyTest@2d554825]" name="MyMethod3" duration-ms="0" started-at="2017-05-22T16:37:37Z" finished-at="2017-05-22T16:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyMethod3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.demo.sachin.jagtap.MyTest@2d554825]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-22T16:37:37Z" finished-at="2017-05-22T16:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.demo.sachin.jagtap.NewTest@68837a77]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-05-22T16:37:37Z" finished-at="2017-05-22T16:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.demo.sachin.jagtap.MyTest@2d554825]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-05-22T16:37:37Z" finished-at="2017-05-22T16:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.demo.sachin.jagtap.MyTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
